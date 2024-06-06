@@ -1,0 +1,59 @@
+.left-part {
+  > div {
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin: 0 5px;
+  }
+}
+.right-part1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+
+  > div {
+    > span {
+      margin: 10px;
+      font-family: "Open Sans", sans-serif;
+      line-height: 24px;
+      font-weight: 600;
+      color: #333333;
+      font-size: 16px;
+    }
+    > select {
+      width: 134px;
+      height: 39px;
+      border-radius: 4px;
+      > option {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .btn {
+    width: 183px;
+    height: 39px;
+    // padding: 8px 16px 8px 16px;
+    background-color: #2e9844;
+    border-radius: 4px;
+    text-align: center;
+    align-content: center;
+    > span {
+      font-weight: 700;
+      line-height: 22.55px;
+      font-size: 15px;
+      font-family: "Open Sans", sans-serif;
+      color: white;
+    }
+  }
+}
+
+.active-btn {
+  color: green;
+  > span {
+    color: green;
+  }
+}

@@ -1,0 +1,81 @@
+@import "constants";
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  > button {
+    width: 250px;
+    height: 44px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 12px 0px 12px 12px;
+    background-color: $btncolor;
+    border: none;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:hover{
+      background-color: green;
+      transition: all;
+      transition-duration: 5s;
+    }
+  }
+  > .btn {
+    width: 300px;
+    height: 39px;
+    border: wheat solid 1px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #F3F3F3;
+
+    &:hover{
+      background-color:rgb(32, 100, 32);
+      transition: all;
+      transition-duration: 1s;
+    }
+
+    >FcGoogle{
+      width: 50px;
+      height: 50px;
+
+    }
+
+  }
+}
+.filed-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px 5px;
+
+  > input {
+    width: 287px;
+    height: 45px;
+    border-radius: 4px;
+    // padding: 12px 0px 12px 12px;
+    padding-left: 10px;
+    opacity: 90%;
+    border: none;
+    &:focus {
+      border: none;
+    }
+  }
+
+  > label {
+    color: white;
+    font-family: sans-serif;
+
+    > span {
+      color: red;
+    }
+  }
+}

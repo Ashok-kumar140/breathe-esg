@@ -1,0 +1,68 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+
+  .left-box {
+    background-color: white;
+    width: 100%;
+  }
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 20px;
+  justify-content: space-between;
+//   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  background-color: #F3F3F3;
+
+  > .left-part {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    > div {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 22.5px;
+      font-family: "Open Sans", sans-serif;
+      color: #333333;
+    }
+
+    > img {
+      width: 18px;
+      height: 18px;
+    }
+
+    > select {
+      width: 186px;
+      height: 39px;
+    }
+  }
+  > .right-part {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    > FaRegBell {
+      width: 34px;
+      height: 34px;
+    }
+    > span {
+      color: #9f9f9f;
+      font-weight: 600;
+      font-size: 14px;
+      font-family: "Open Sans", sans-serif;
+    }
+    > div {
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+        overflow: hidden;
+      > img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}
